@@ -166,7 +166,7 @@ export const ContactSection = ({ contactData }) => {
                     value={formData.name}
                     onChange={handleInputChange}
                     required
-                    className="mt-1 focus:ring-green-500 focus:border-green-500"
+                    className="mt-1 focus:ring-green-700 focus:border-green-700"
                     placeholder="Enter your full name"
                   />
                 </div>
