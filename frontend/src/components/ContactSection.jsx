@@ -134,7 +134,7 @@ export const ContactSection = ({ contactData }) => {
               <Button 
                 onClick={handleWhatsApp}
                 variant="outline"
-                className="border-green-600 text-green-600 hover:bg-green-600 hover:text-white py-4 font-semibold transition-all duration-300 transform hover:scale-105"
+                className="border-green-700 text-green-700 hover:bg-green-700 hover:text-white py-4 font-semibold transition-all duration-300 transform hover:scale-105"
               >
                 <MessageCircle className="mr-2 h-5 w-5" />
                 WhatsApp
