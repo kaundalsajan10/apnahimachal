@@ -126,7 +126,7 @@ export const ContactSection = ({ contactData }) => {
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
               <Button 
                 onClick={handleCall}
-                className="bg-green-600 hover:bg-green-700 text-white py-4 font-semibold transition-all duration-300 transform hover:scale-105"
+                className="bg-green-700 hover:bg-green-800 text-white py-4 font-semibold transition-all duration-300 transform hover:scale-105"
               >
                 <Phone className="mr-2 h-5 w-5" />
                 Call Now
