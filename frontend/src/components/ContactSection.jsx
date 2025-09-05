@@ -92,7 +92,7 @@ export const ContactSection = ({ contactData }) => {
 
                 <div className="flex items-center space-x-4">
                   <div className="bg-green-100 p-3 rounded-full">
-                    <MessageCircle className="h-6 w-6 text-green-600" />
+                    <MessageCircle className="h-6 w-6 text-green-700" />
                   </div>
                   <div>
                     <p className="font-semibold text-gray-900">WhatsApp</p>
