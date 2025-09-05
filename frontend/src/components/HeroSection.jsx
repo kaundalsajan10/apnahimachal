@@ -15,7 +15,7 @@ export const HeroSection = ({ heroData, contactData }) => {
     <section 
       className="relative py-20 min-h-[80vh] flex items-center"
       style={{
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url('https://images.pexels.com/photos/33779030/pexels-photo-33779030.jpeg')`,
+        backgroundImage: `linear-gradient(rgba(34, 84, 41, 0.3), rgba(21, 128, 61, 0.2)), url('https://images.unsplash.com/photo-1596693097925-9d818cc9692d')`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat'
