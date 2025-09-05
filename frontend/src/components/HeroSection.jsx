@@ -32,7 +32,7 @@ export const HeroSection = ({ heroData, contactData }) => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button 
               size="lg" 
-              className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 text-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg"
+              className="bg-green-700 hover:bg-green-800 text-white px-8 py-4 text-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg border-2 border-green-700 hover:border-green-800"
               onClick={handleCall}
             >
               <Phone className="mr-2 h-5 w-5" />
@@ -41,7 +41,7 @@ export const HeroSection = ({ heroData, contactData }) => {
             <Button 
               size="lg" 
               variant="outline"
-              className="border-white text-white hover:bg-white hover:text-green-600 px-8 py-4 text-lg font-semibold transition-all duration-300 transform hover:scale-105 backdrop-blur-sm bg-white/10"
+              className="border-2 border-white text-white hover:bg-green-700 hover:text-white hover:border-green-700 px-8 py-4 text-lg font-semibold transition-all duration-300 transform hover:scale-105 backdrop-blur-sm bg-white/10"
               onClick={handleWhatsApp}
             >
               <MessageCircle className="mr-2 h-5 w-5" />
