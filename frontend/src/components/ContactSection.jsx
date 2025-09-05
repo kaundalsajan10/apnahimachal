@@ -208,7 +208,7 @@ export const ContactSection = ({ contactData }) => {
                     onChange={handleInputChange}
                     rows={4}
                     required
-                    className="mt-1 focus:ring-green-500 focus:border-green-500"
+                    className="mt-1 focus:ring-green-700 focus:border-green-700"
                     placeholder="Tell us about your transportation needs..."
                   />
                 </div>
