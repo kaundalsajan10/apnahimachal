@@ -77,7 +77,7 @@ export const ContactSection = ({ contactData }) => {
           <div className="space-y-8">
             <Card className="border-green-100">
               <CardHeader>
-                <CardTitle className="text-2xl text-green-700">Contact Information</CardTitle>
+                <CardTitle className="text-2xl text-green-800">Contact Information</CardTitle>
               </CardHeader>
               <CardContent className="space-y-6">
                 <div className="flex items-center space-x-4">
