@@ -14,8 +14,8 @@ export const Header = ({ logoUrl }) => {
             <h1 className="text-3xl font-bold text-green-800">Apna Himachal</h1>
           </div>
           <nav className="hidden md:flex space-x-8">
-            <a href="#about" className="text-gray-700 hover:text-green-600 transition-colors">About</a>
-            <a href="#contact" className="text-gray-700 hover:text-green-600 transition-colors">Contact</a>
+            <a href="#about" className="text-gray-700 hover:text-green-700 transition-colors font-medium">About</a>
+            <a href="#contact" className="text-gray-700 hover:text-green-700 transition-colors font-medium">Contact</a>
           </nav>
         </div>
       </div>
