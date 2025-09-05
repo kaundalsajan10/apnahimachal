@@ -153,7 +153,7 @@ export const ContactSection = ({ contactData }) => {
           {/* Contact Form */}
           <Card className="border-green-100">
             <CardHeader>
-              <CardTitle className="text-2xl text-green-700">Send us a Message</CardTitle>
+              <CardTitle className="text-2xl text-green-800">Send us a Message</CardTitle>
             </CardHeader>
             <CardContent>
               <form onSubmit={handleSubmit} className="space-y-6">
