@@ -29,7 +29,7 @@ export const AboutSection = ({ aboutData }) => {
               <Card key={index} className="border-green-100 hover:border-green-200 transition-all duration-300 hover:shadow-lg">
                 <CardContent className="p-6 text-center">
                   <div className="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <IconComponent className="h-8 w-8 text-green-600" />
+                    <IconComponent className="h-8 w-8 text-green-700" />
                   </div>
                   <h3 className="text-lg font-semibold text-gray-900 mb-2">{feature}</h3>
                 </CardContent>
