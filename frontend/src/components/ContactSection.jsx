@@ -25,12 +25,20 @@ export const ContactSection = ({ contactData }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Mock form submission
-    console.log('Form submitted:', formData);
+    // Create mailto link for static site
+    const subject = `Taxi Inquiry from ${formData.name}`;
+    const body = `Name: ${formData.name}\nPhone: ${formData.phone}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`;
+    const mailtoLink = `mailto:${contactData.email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    
+    // Open email client
+    window.location.href = mailtoLink;
+    
+    // Show success message
     toast({
-      title: "Message Sent!",
-      description: "We'll get back to you within 24 hours.",
+      title: "Opening Email Client",
+      description: "Your default email app will open with the pre-filled message.",
     });
+    
     // Reset form
     setFormData({
       name: '',
