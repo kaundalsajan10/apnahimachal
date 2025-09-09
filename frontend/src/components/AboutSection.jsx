@@ -6,7 +6,7 @@ export const AboutSection = ({ aboutData }) => {
   const featureIcons = {
     "Verified Local Drivers": CheckCircle,
     "24/7 Service Availability": Clock,
-    "Competitive Pricing": DollarSign,
+    "Pick Your Own Price": DollarSign,
     "Mountain Route Specialists": Mountain
   };
 

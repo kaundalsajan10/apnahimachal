@@ -31,7 +31,7 @@ const Home = () => {
             <h3 className="text-xl font-bold">Apna Himachal</h3>
           </div>
           <p className="text-gray-400">
-            © 2025 Apna Himachal. All rights reserved. Your trusted partner for Himachal Pradesh transportation.
+            © 2025 Apna Himachal. All rights reserved. Your trusted partner for taxi driver's search.
           </p>
         </div>
       </footer>

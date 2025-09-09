@@ -1,10 +1,10 @@
 // Mock data for Apna Himachal landing page
 export const mockData = {
   contact: {
-    phone: "+91-98765-43210",
-    whatsapp: "+91-98765-43210",
-    email: "contact@apnahimachal.com",
-    address: "Main Market, Shimla, Himachal Pradesh 171001"
+    phone: "+91-88948-19650",
+    whatsapp: "+91-88948-19650",
+    email: "kaundalsajan10@gmail.com",
+    address: "Vill-Rawara P.O, Sandhol, Himachal Pradesh 176090"
   },
   
   hero: {
@@ -19,7 +19,7 @@ export const mockData = {
     features: [
       "Verified Local Drivers",
       "24/7 Service Availability", 
-      "Competitive Pricing",
+      "Pick Your Own Price",
       "Mountain Route Specialists"
     ]
   }
